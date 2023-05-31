@@ -225,7 +225,15 @@ p {
 
    /* ----------- IDEAL STATE CHATROOM PAGINA (ROSA) ----------  */
 
-  
+  .main-contain{
+    text-align: center;
+  }
+  .chatroom-header{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
    .chatroom-contain {
     position: relative;
     width: 25rem;
@@ -237,6 +245,8 @@ p {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    left: 50%;
+  transform: translate(-50%);
   }
     
   
@@ -244,21 +254,24 @@ p {
     
   .chatroom-contain ul {
     margin: 0;
-    padding: 0.2rem;
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     flex-grow: 2;
-    width: 18em;
+    max-width: 20em;
     overflow-y: scroll;
+    
   }
     
     ::-webkit-scrollbar {
       background: transparent;
     }
     
-    .chatroom-contain ul > li {
+    .chatroom-contain > ul > li {
+      background-color: var(--primary);
       padding: 0.5rem 1rem;
       font-size: 2rem;
-      background-color: var(--primary);
+     
       border-radius: 25px;
       margin: 1rem 0 1rem 0;
       color: var(--tertiary);
@@ -316,14 +329,10 @@ p {
       padding-left: 1rem;
     }
     
-    .chatroom-contain form > button:active {
-      padding-left: 1rem;
-      color: green;
-    }
+   
 
   .eigen-bericht{
     background-color: var(--secondary);
-    width: 50%;
     text-align: right;
     align-self: flex-end;
   }
