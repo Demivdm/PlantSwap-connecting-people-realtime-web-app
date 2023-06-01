@@ -1,7 +1,10 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# PlantSwap
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+# PlantSwap Amsterdam - Trivia
+
+PlantSwap Amsterdam is een boeiende website vol met plantenweetjes en trivia, waar plantenliefhebbers kunnen genieten van een wereld vol groene kennis en ontdekkingen.
+
+![voorbeeld-plantswap-trivia](https://github.com/Demivdm/PlantSwap-connecting-people-realtime-web-app/assets/112861375/6838f28f-2d41-449b-904d-bcf1c97ff892)
 
 ## Inhoudsopgave
 
@@ -14,18 +17,24 @@
   * [Licentie](#licentie)
 
 ## Beschrijving
-<!-- Bij Beschrijving staat kort beschreven wat voor project het is en wat je hebt gemaakt -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+
+Stap in de wereld van groene kennis en spanning met het online en realtime trivia-spel van PlantSwap Amsterdam! Doe mee met plantenliefhebbers van over de hele stad terwijl je je kennis test over plantensoorten, verzorgingstips en botanische feiten. Met uitdagende vragen biedt dit interactieve spel een leuke en educatieve ervaring voor alle deelnemers. Bereid je voor om je groene duim te laten zien en je plantenkennis te laten bloeien in dit boeiende PlantSwap Amsterdam trivia-avontuur!
 
 ## Gebruik
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+
+De user-story van dit project: 
+* Als gebruiker van PlantSwap wil ik gebruik kunnen maken van een functie waarbij ik met andere gebruikers interactie kan hebben
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
 
 ## Installatie
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+* Om deze repository te installeren, volg je deze stappen:
+
+1. Klik op de groene knop "Code" en kopieer de URL van de repository.
+2. Open een terminalvenster op je computer en navigeer naar de locatie waar je de repository wilt installeren.
+3. Typ "git clone" gevolgd door de URL die je hebt gekopieerd en druk op Enter.
+4. De repository wordt nu gekloond naar de opgegeven locatie op je computer.
 
 ## Deeltaak UI stack
 
@@ -40,6 +49,8 @@ Bekijk hieronder de wireflow en breakdown van de states. Of bekijk de complete w
 ![image](https://github.com/Demivdm/PlantSwap-connecting-people-realtime-web-app/assets/112861166/e04db27b-9ffb-440f-b962-a733e0dc5b13)
 
 ## Bronnen
+
+Voor het bouwen van de trivia | https://simplestepscode.com/javascript-quiz-tutorial/
 
 ## Licentie
 
