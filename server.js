@@ -54,6 +54,7 @@ io.on('connection', (socket) => {
     // Verstuur het bericht naar alle clients, socket id toegevoegd, en content van het bericht toegevoegd
     io.emit('message', {uid: socket.id, message: message})
   })
+  //EINDE CHATROOM
 
   //  TEST 1 HOW MANY ACTIVE PLAYERS
     let activePlayers = 0;
@@ -105,6 +106,12 @@ app.get('/error', (request, response) => {
 // Route voor chatroom
 app.get('/chatroom', (request, response) => {
     response.render('chatroom')
+})
+
+// Route voor errorpagina
+
+app.use(function(request,response,next){
+  response.status(404).render('error')
 })
 
 // Start een http server op het ingestelde poortnummer en log de url

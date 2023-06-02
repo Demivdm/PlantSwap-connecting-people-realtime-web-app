@@ -364,7 +364,7 @@ p {
   display: flex;
   justify-content: center;
   background-color: var(--secondary);
-  color: white;
+
   font-family: 'Murecho', sans-serif;
   font-size: 1rem;
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
@@ -375,12 +375,12 @@ p {
 
 .error-message button:hover{
   background-color: white;
-  color: var(--secondary);
   border: solid 2px #F26F21;
   transition: 0.3s;
+  
 }
 
 .error-message a{
   text-decoration: none;
-  color: var(--p-color);
+  color:black;
 }
